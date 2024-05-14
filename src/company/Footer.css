@@ -1,0 +1,107 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#fff;
+}
+
+.footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+    margin-left: 32px;
+    margin-right: 42px;
+    color: black;
+}
+
+.footer h1 {
+    font-style: oblique;
+    margin-bottom: 15px;
+    color: black;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 110px;
+    border-radius: 5px;
+
+}
+
+.footer h1:hover {
+    background-color: rgb(116, 110, 98);
+    box-shadow: white;
+}
+
+.footer h4 {
+    padding-bottom: 15px;
+    font-size: 19px;
+    color: black;
+}
+
+.footer p {
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+
+footer .follow {
+    margin-top: -30px;
+    color: black;
+
+}
+
+.footer .follow i {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.footer .follow i:hover,
+.footer a:hover {
+    color: rgb(21, 64, 203);
+}
+
+footer .Install .row img {
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+
+footer .Install .row img:hover {
+    box-shadow: 0 0 5px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent);
+    background-color: #03e9f4;
+    cursor: pointer;
+}
+
+.footer .Install .payment img {
+    border: 2px solid blue;
+}
+
+.footer .Install .payment img:hover {
+    background-color: blue;
+    box-shadow: 0 0 5px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent);
+    cursor: pointer;
+}
+
+.footer a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .footer .col {
+   align-items: center;
+   justify-content: center;
+
+        
+      margin-left: 35px;
+      margin-right: 66px;
+  
+    }
+  }

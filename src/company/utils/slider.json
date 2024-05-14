@@ -1,0 +1,44 @@
+[
+    {
+      "name": "New City",
+      "price": "47,043",
+      "detail": "Zara Residency Memon Wada Rd,Bhendi Bazaar Mumbai 400003",
+      "image": "./r1.png"
+    },
+    {
+      "name": "Zara Residency",
+      "price": "66,353",
+      "detail": "Zara Residency Memon Wada Rd,Bhendi Bazaar Mumbai 400003",
+      "image": "./r2.png"
+    },
+    {
+      "name": "Affu Vella",
+      "price": "35,853",
+      "detail": "Khandala ,Lonavla thane bhiwandi  Mumbai 400012",
+      "image": "./r3.png"
+    },
+    {
+      "name": "Vella City",
+      "price": "47,043",
+      "detail": "32 Karnwood Dr, Scarborough,Scarborough Southwest Canada",
+      "image": "./r1.png"
+    },
+    {
+      "name": "Garden City",
+      "price": "66,353",
+      "detail": "3187 Yonge St, Karnwood Dr, Scarborough,Scarborough Southwest Toronto , canada",
+      "image": "./r2.png"
+    },
+    {
+      "name": "Affu Vella",
+      "price": "35,853",
+      "detail": "Khandala ,Lonavla Mumbai 400012",
+      "image": "./r3.png"
+    },
+    {
+      "name": "Garden City",
+      "price": "66,353",
+      "detail": "3187 Yonge St, Karnwood Dr, Scarborough,Scarborough Southwest Toronto , canada",
+      "image": "./r2.png"
+    }
+  ]

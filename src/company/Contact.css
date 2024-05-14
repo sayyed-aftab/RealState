@@ -1,0 +1,93 @@
+.cc-container{
+justify-content: space-around;
+background-color: rgba(26, 22, 22, 0.814);
+}
+
+.cc-container>div{
+    flex: 1;
+   
+}
+.c-right{
+width: 100%;
+}
+.c-left{
+gap: 0.5rem;
+
+;
+}
+.contactModes{
+    margin-top: 2rem;
+    gap: 1rem;
+background-color:rgb(132, 112, 112)
+
+}
+.contactModes .row{
+gap: 1.5rem;
+}
+.mode{
+width: 16rem;
+padding: 1rem;
+border: transparent;
+border-radius: 15px;
+gap: 1rem;
+transition: all 300ms ease-in;
+
+}
+.mode.button{
+    width: 100%;
+    background:lightblue;
+    color:blue;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.mode >:nth-child(1){
+width: 100%;
+gap: 1.6rem;
+}
+.mode .detail{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.mode:hover{
+scale: 1.06;
+box-shadow: var(--shadow);
+}
+/* Contact.css */
+
+ .orangeText-s {
+    color: wheat; 
+  }
+  
+  .PrimaryText-s{
+    color: white; 
+  } 
+  
+ /* Responsive styles */
+@media screen and (max-width: 768px) {
+    .cc-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .contactModes {
+      margin-top: 1rem; 
+    }
+  
+    .mode {
+      width: calc(100% - 1rem); 
+    }
+    .c-left{
+    align-items: center;
+   
+}
+.img-container{
+    align-items: center;
+   margin-left: 27px;
+   
+
+}
+  }
+  
